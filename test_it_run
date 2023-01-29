@@ -1,0 +1,21 @@
+import test
+
+r = test.J(5, 10, 10, 70)
+r.set_x(2)
+print(r.r())
+print(r)
+print(r.exp())
+
+# class Me:
+#     def test():
+#         x = 5
+#
+#
+#         def hi():
+#             print(x)
+#
+#         hi()
+#
+#
+# me = Me()
+# test()

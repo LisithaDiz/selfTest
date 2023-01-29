@@ -1,0 +1,30 @@
+class J:
+    def __init__(self, x, y, p, q):
+        self.ex = x
+        self.ey = y
+        self.ep = p
+        self.eq = q
+
+    def set_x(self, x=456789):
+        self.iny = x
+
+    def set_y(self, y):
+        self.ey = y
+
+    def r(self):
+        return self.ex + self.ey
+
+    def __str__(self):
+        return f"Rectangle(width=, height=)"
+
+    def exp(self):
+        return self.ep * self.eq + self.iny
+
+# width = 2
+# height = 3
+# if width >= 50 or height >= 50:
+#     print("Too big for picture.")
+# else:
+#     while height > 0:
+#         print('*' * 10)
+#         height -= 1
